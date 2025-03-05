@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Personal Portfolio Wesbite - Elionai Meried </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/475f09d4b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" alt="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact </a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+         <div class="header-text">
+             <p>programmer, athlete  </p>
+             <h1>Hi, I'm <span>Elionai</span><br>Meried From Ethiopia</h1>
+         </div>
+    </div>
+</div>
+
+<!-- About -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-2"> 
+                <h1 class="subtitle" id="Aboutme">About Me</h1>
+                <p id="subtitle1">Hi, I’m Elionai, a 15-year-old from Ethiopia with a passion for football, coding, and personal growth. Whether I’m refining my game on the field as an attacking midfielder, improving my coding skills, or pushing myself in the gym, I’m always striving to be better.
+
+                    I believe in hard work, strategy, and continuous improvement—whether it’s in sports, academics, or life. This website is where I share my journey, ideas, and projects. Stick around, and let’s grow together!
+                    
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front-end development</span><br>Designing Web/App interfaces</li>
+                        <li><span>Python development</span><br>Creating Games in using python's pygame module</li>
+                        <li><span>School Athlete</span><br>Active in football, volleyball</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>N/A</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Elementary-school</span><br>Andinet International School-Addiss Ababa</li>
+                        <li><span>Middle-School</span><br>Cambride Academy Ethiopia-Addiss Ababa</li>
+                        <li><span>High-School</span><br>Universal American School-Dubai</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------script--------------- -->
+ <div id="services">
+    <div class="coainter">
+        <h1 class="subtitle">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Python Development</h2>
+                <p>I'm a high school student learning Python and improving my coding skills. 
+                    I enjoy problem-solving, building small projects, and experimenting with different features of Python. 
+                    I'm still learning, but I’m always looking for ways to improve and create cool things with code!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>I'm learning web design with HTML, CSS, and JavaScript to create simple and visually appealing websites. 
+                    I enjoy experimenting with layouts, styling, and interactive elements to make web pages look better and work smoothly. 
+                    I'm still improving, but I like building and testing new ideas!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-robot"></i>
+                <h2>AI Development(Interest)</h2>
+                <p>I'm interested in learning AI development as one of the services I want to offer. I believe it will allow me to expand my skill set 
+                    and contribute to innovative solutions across different fields, making me more versatile in the technology space.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+<!-- ------------portfolio--------------- -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Work In Progress</h3>
+                    <p>Im working on or brainstorming on this project</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Work In Progress</h3>
+                    <p>Im working on or brainstorming on this project</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Work In Progress</h3>
+                    <p>Im working on or brainstorming on this project</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+ <!-- ------------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>elonmeried67@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+971 507664590</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/elon-meried
+                    "><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/elon-meried"><i class="fa-brands fa-instagram"></i></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Elionai 2025. All rights reserved <i class="fa-solid fa-heart"></i> </p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname) {
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyELg6KhlT2HbOpHtZG4YVYaX96wxFxL82QWwkfSSB8jmy6aWSWjlArcjqCGwbbwED2IQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+</html>
